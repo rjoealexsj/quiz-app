@@ -1,5 +1,5 @@
-import React from 'react'
-import './Quiz.css'
+import React from 'react';
+import '../Quiz/Quiz.css';
 
 const Quiz = () => {
   return (
