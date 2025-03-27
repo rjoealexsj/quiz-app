@@ -32,9 +32,13 @@ const checkAns = (e,ans) => {
     }
   }
 }
-const next = ()=>{
+const next = () => {
   if(lock===true) {
-    
+    if(index === data.length -1) {
+      setResult(true);
+      return 0;
+    }
+
     setIndex(++index);
     setQuestion(data[index]);
     setLock(false);
