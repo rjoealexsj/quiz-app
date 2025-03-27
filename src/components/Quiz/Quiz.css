@@ -22,9 +22,9 @@
   .container ul li{
     display: flex;
     align-items: center;
-    height :70px;
+    height: 70px;
     padding-left: 15px;
-    border: 1x solid #686868;
+    border: 2px solid #686868;
     border-radius: 8px;
     margin-bottom: 20px;
     font-size: 20px;
@@ -46,3 +46,12 @@
     margin:auto;
     font-size: 18px;
   }
+  .container .correct
+{
+  background: #dffff2;
+  border-color: #00d397;
+}
+.container .wrong{
+  background: #dffff2;
+  border-color: #FF4A4A;
+}
