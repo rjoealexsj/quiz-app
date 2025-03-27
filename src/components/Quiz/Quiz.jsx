@@ -3,14 +3,9 @@ import '../Quiz/Quiz.css';
 import { data } from '../../assets/data';
 const Quiz = () => {
 
-  let [index,setIndex] = useState(0);
+  let [index,setIndex] = useState(3);
   let [question,setQuestion] = useState(data[index]);
   let [lock,setLock] = useState(false);
-
-
-
-  
-
 
 
 const checkAns =(e,ans) => {
