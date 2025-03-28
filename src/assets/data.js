@@ -1,3 +1,45 @@
+export const studentCredentials = [
+  { username: 'student1', password: 'stud123', name: 'John Doe' },
+  { username: 'student2', password: 'stud123', name: 'Jane Smith' },
+];
+
+export const staffCredentials = [
+  { username: 'staff1', password: 'staff123', name: 'Staff Member' },
+];
+
+export const adminCredentials = [
+  { username: 'admin1', password: 'adminPass', name: 'Admin User' },
+];
+
+export const quizData = [
+  {
+    type: "MCQ",
+    questions: [
+      {
+        question: "What is the capital of France?",
+        choices: ["Berlin", "Madrid", "Paris", "Rome"],
+        answer: "Paris",
+      },
+      {
+        question: "Which planet is known as the Red Planet?",
+        choices: ["Earth", "Mars", "Jupiter", "Saturn"],
+        answer: "Mars",
+      },
+    ],
+  },
+  {
+    type: "True or False",
+    questions: [
+      {
+        question: "The earth is flat.",
+        choices: ["True", "False"],
+        answer: "False",
+      },
+    ],
+  },
+  // Add more quizzes as necessary
+];
+
 export const data = [
     {
       question: "Which device is required for the Internet connection?",
@@ -40,3 +82,4 @@ export const data = [
       ans: 2,
     },
   ];
+

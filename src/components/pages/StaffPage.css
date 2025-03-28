@@ -1,0 +1,113 @@
+/* StaffPage.css */
+
+.staff-container {
+    font-family: 'Arial', sans-serif;
+    padding: 40px;
+    background: linear-gradient(135deg, #f0f8ff, #00bcd4);
+    text-align: center;
+    min-height: 100vh;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+  }
+  
+  select, input {
+    width: 80%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  select:focus, input:focus {
+    border-color: #00bcd4;
+    box-shadow: 0 0 5px rgba(0, 188, 212, 0.5);
+  }
+  
+  button {
+    padding: 12px 30px;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #008c9e;
+  }
+  
+  .quiz-container {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .quiz-container input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+  }
+  
+  .quiz-container button {
+    margin-top: 10px;
+  }
+  
+  .message {
+    margin-top: 20px;
+    color: green;
+    font-size: 1.2rem;
+  }
+/* StaffPage.css - Updated to handle choices better */
+
+.choices-container {
+  margin-top: 20px;
+}
+
+.choice-input {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.choice-input input {
+  width: 80%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.remove-choice-btn {
+  padding: 8px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.remove-choice-btn:hover {
+  background-color: #d32f2f;
+}
+
+.add-choice-btn {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.add-choice-btn:hover {
+  background-color: #45a049;
+}

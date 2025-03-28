@@ -1,0 +1,70 @@
+/* StudentPage.css */
+
+.student-page-container {
+    font-family: 'Arial', sans-serif;
+    background: #f2f6fc;
+    text-align: center;
+    padding: 40px;
+    min-height: 100vh;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .quiz-option {
+    margin-bottom: 30px;
+  }
+  
+  .take-quiz-btn, .decline-quiz-btn {
+    padding: 14px 30px;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 10px;
+  }
+  
+  .take-quiz-btn:hover {
+    background-color: #008c9e;
+  }
+  
+  .decline-quiz-btn:hover {
+    background-color: #f44336;
+  }
+  
+  .quiz-container {
+    text-align: left;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sorry-message {
+    color: #f44336;
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  .logout-btn {
+    padding: 14px 30px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .logout-btn:hover {
+    background-color: #d32f2f;
+  }
+  
